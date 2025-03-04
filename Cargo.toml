@@ -1,0 +1,12 @@
+[package]
+name = "app-audio-mix"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows-volume-control = "0.1.1"
+clap = { version = "4.0", features = ["derive"] }
+
+[[bin]]
+name = "app-audio-mix"
+path = "main.rs"
